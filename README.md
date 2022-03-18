@@ -25,15 +25,18 @@
 
 ## Available Scripts
 
-In the project directory, you can run:
+<p>In the project directory, you can run:</p>
+<p>No diretorio do projeto, você pode rodar:</p>
 
 ### `yarn android` or  `yarn ios`
+### `yarn android` ou  `yarn ios`
 
-Runs the app in the development mode.\
-Adjust the .env file with the ip of your host, to perform the debug with reactotron
+<p>Runs the app in the development mode.
+Adjust the .env file with the ip of your host, to perform the debug with reactotron</p>
+<p>Para rodar o app em modo de desenvolvedor,  é preciso ajustar ajustar o ip do host no arquivo .env, é possivel debugar pelo reactotron</p>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the reactotron.
+<p>The page will reload when you make changes. You may also see any errors in the reactotron.</p>
+<p>A pagina será atualizada quando ocorrer qualquer atualização, qualuer erro pode ser verificado pelo reactotron</p>
 
 ## :rocket: Sobre o desafio
 
@@ -43,6 +46,7 @@ Application that saves and displays the users informed using the github API, a s
 
  ## Tecnologias 💻
 
+This project was developed with the following technologies:
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 - [React Native](https://reactnative.dev/)
