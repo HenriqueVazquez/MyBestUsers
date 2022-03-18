@@ -1,0 +1,60 @@
+{
+  "name": "modulo06",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "test": "jest",
+    "lint": "eslint .",
+    "postinstall": "jetifier -r"
+  },
+  "dependencies": {
+    "@react-native-community/async-storage": "^1.12.1",
+    "@react-native-community/masked-view": "^0.1.11",
+    "axios": "^0.26.1",
+    "dotenv": "^16.0.0",
+    "prop-types": "^15.8.1",
+    "react": "17.0.2",
+    "react-native": "0.67.3",
+    "react-native-dotenv": "^3.3.1",
+    "react-native-gesture-handler": "^1.10.3",
+    "react-native-reanimated": "^2.4.1",
+    "react-native-safe-area-context": "^4.1.4",
+    "react-native-screens": "^3.13.1",
+    "react-native-vector-icons": "^9.1.0",
+    "react-native-webview": "^11.17.2",
+    "react-navigation": "^4.4.4",
+    "react-navigation-stack": "^2.10.4",
+    "reactotron-react-native": "^5.0.1",
+    "styled-components": "^5.3.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.17.5",
+    "@babel/runtime": "^7.17.2",
+    "@react-native-community/eslint-config": "^3.0.1",
+    "babel-eslint": "^10.1.0",
+    "babel-jest": "^27.5.1",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-react": "^7.29.3",
+    "eslint-plugin-react-hooks": "^4.3.0",
+    "jest": "^27.5.1",
+    "jetifier": "^2.0.0",
+    "metro-react-native-babel-preset": "^0.69.0",
+    "prettier": "^2.5.1",
+    "react-test-renderer": "17.0.2"
+  },
+  "jest": {
+    "preset": "react-native"
+  },
+  "engines": {
+    "node": "<17",
+    "npm": "<8.2"
+  }
+}
